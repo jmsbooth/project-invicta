@@ -1,0 +1,21 @@
+{
+    "services": [
+      {
+        "name": "Service A",
+        "url": "https://service-a.example.com",
+        "ip": "192.168.1.1",
+        "port": "8080",
+        "localImage": "service-a:latest",
+        "checkInterval": 30
+      },
+      {
+        "name": "Service B",
+        "url": "https://service-b.example.com",
+        "ip": "192.168.1.2",
+        "port": "8080",
+        "localImage": "service-b:latest",
+        "checkInterval": 60
+      }
+    ]
+  }
+  
